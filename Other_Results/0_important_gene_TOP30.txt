@@ -1,0 +1,21 @@
+Dataset: Bortezomib_NR-R_response_simp-importance_channels(5)_0
+Important Genes: ['MRPL24', 'DUSP11', 'TMEM185B', 'DCLRE1A', 'CTNNBL1', 'ANGEL1', 'ARMC6', 'TIMM9', 'ELP5', 'TRIP6', 'CCNI', 'IGBP1', 'EIF3L', 'TMEM14A', 'MAPKAPK5', 'KRAS', 'H2AFZ', 'NDUFB1', 'RPL11', 'ZNF432', 'ZNF16', 'PLP2', 'DPH5', 'GPN1', 'GADD45GIP1', 'LAMTOR3', 'MICAL1', 'NDUFB7', 'LAMTOR2', 'RPS21']
+
+Dataset: Bortezomib_PD-R_response_simp-importance_channels(9)_0
+Important Genes: ['MRM1', 'UBE3C', 'MED28', 'GLT8D1', 'MAPKAP1', 'B4GALT4', 'SLAMF7', 'SLC35A5', 'FAIM', 'FAM168B', 'RPP14', 'MRPS34', 'CMTM6', 'GPKOW', 'YIPF3', 'MEX3C', 'IMP4', 'RABAC1', 'TMEM186', 'ZDHHC4', 'RNF113A', 'SPR', 'GTF2H4', 'ZNF211', 'LIPT1', 'PSMD8', 'OSGEPL1', 'ZNF16', 'LAMC1', 'SDHA']
+
+Dataset: Infliximab-1(train)-Infliximab-2(test)_simp-importance_channels(9)_0
+Important Genes: ['SLC26A4-AS1', 'KLHL23', 'DNAL4', 'HOXD13', 'RP1-193H18.2', 'SPINK1', 'SEMG1', 'ARHGAP26', 'F3', 'SERPINB1', 'ENPP3', 'NT5E', 'SPINK2', 'MAP2K6', 'YOD1', 'PLEC', 'ADM', 'TFPI', 'PPP1R13L', 'SLC26A2', 'TNIK', 'SERPINB3', 'SFR1', 'STS', 'MYOF', 'S100A11', 'TGFA', 'MYO15B', 'CNTN3', 'SERPINB8']
+
+Dataset: Infliximab-2(train)-Infliximab-1(test)_simp-importance_channels(9)_0
+Important Genes: ['PRPF40B', 'SHISA2', 'SPINK2', 'KLHL32', 'STS', 'INSL5', 'ITLN1', 'DISP2', 'MTNR1A', 'SPINK5', 'SPINK1', 'HOXD13', 'CLCA1', 'HOXD11', 'PXN-AS1', 'ENPP3', 'ZC2HC1C', 'RP1-193H18.2', 'MPC1', 'RETNLB', 'SOWAHA', 'PIGZ', 'TMEM56', 'HOXB13', 'RP11-33O4.1', 'MCF2L-AS1', 'KLHL23', 'PRAC1', 'SOSTDC1', 'LINC00328']
+
+Dataset: CN-AML_simp-importance_channels(9)_0
+Important Genes: ['CLCN1', 'PROK2', 'LPAR1', 'EIF4E3', 'KCNQ1', 'MN1', 'ALDH2', 'LINC01709', 'GPR27', 'PADI4', 'SELENON', 'MPP7', 'LINC01786', 'CLCN5', 'RNF217', 'ACADVL', 'CD200', 'F13A1', 'CSTA', 'ZNF385D', 'LDLRAD3', 'AGO4', 'SRGN', 'CLU', 'HSD3B7', 'SCHIP1', 'SERPINB10', 'LINC02767', 'CD34', 'PROM1']
+
+Dataset: KT-1(train)-KT-2(test)_simp-importance_channels(7)_0
+Important Genes: ['PLA1A', 'SSR4', 'HLA-DPA1', 'GBP2', 'GIMAP7', 'DTX3L', 'CD3D', 'HLA-DPB1', 'PTPRC', 'IRF8', 'TYROBP', 'CXCL11', 'MPEG1', 'B2M', 'HLA-DQA1', 'GMFG', 'MS4A7', 'GGTA1P', 'FCER1G', 'CXCL9', 'EVI2A', 'FAM26F', 'CXCL10', 'NLRC5', 'KLRB1', 'CSF2RB', 'IL10RA', 'CYTIP', 'EMB', 'GPR183']
+
+Dataset: KT-2(train)-KT-1(test)_simp-importance_channels(7)_0
+Important Genes: ['ADAMDEC1', 'MRC1', 'CXorf38', 'PPFIBP1', 'C15orf48', 'RGS18', 'FNDC1', 'MARCH1', 'LAMP3', 'DOCK10', 'SSR4', 'SPCS3', 'UHRF1', 'HLA-DQA1', 'CENPU', 'CD8A', 'HMGN2', 'GPR65', 'MNDA', 'WAC-AS1', 'TYROBP', 'LMAN2L', 'CRLF3', 'PRDX6', 'HMGN1', 'LOC158960', 'RGS1', 'CDK2AP1', 'LOC286437', 'SEC22B']
+

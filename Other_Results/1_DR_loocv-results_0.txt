@@ -1,0 +1,95 @@
+Dataset: Infliximab-1
+Channels: 9
+F1: 0.8333333333333334
+Accuracy: 0.8260869565217391
+ROC_AUC: 0.9242424242424242
+
+Dataset: Infliximab-2
+Channels: 9
+F1: 0.0
+Accuracy: 0.5416666666666666
+ROC_AUC: 0.671875
+
+Dataset: KT-1
+Channels: 9
+F1: 0.8070175438596492
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8672814755412991
+
+Dataset: KT-2
+Channels: 9
+F1: 0.8809523809523809
+Accuracy: 0.8226950354609929
+ROC_AUC: 0.8604368932038835
+
+Dataset: Infliximab-1
+Channels: 7
+F1: 0.8333333333333334
+Accuracy: 0.8260869565217391
+ROC_AUC: 0.909090909090909
+
+Dataset: Infliximab-2
+Channels: 7
+F1: 0.5714285714285715
+Accuracy: 0.75
+ROC_AUC: 0.765625
+
+Dataset: KT-1
+Channels: 7
+F1: 0.7964601769911505
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8552526062550121
+
+Dataset: KT-2
+Channels: 7
+F1: 0.8764568764568764
+Accuracy: 0.8120567375886525
+ROC_AUC: 0.8535385794583547
+
+Dataset: Infliximab-1
+Channels: 5
+F1: 0.8333333333333334
+Accuracy: 0.8260869565217391
+ROC_AUC: 0.9166666666666665
+
+Dataset: CN-AML
+Channels: 9
+F1: 0.5714285714285715
+Accuracy: 0.6865671641791045
+ROC_AUC: 0.7579737335834897
+
+Dataset: CN-AML
+Channels: 7
+Parameters: {'conv1_kernel_size': 9, 'dense_layers': [256], 'epochs': 150, 'patience': 30, 'batch_size': 128, 'lr': 0.00015, 'random_state': 32, 'verbose': 0, 'gpuid': '6'}
+F1: 0.5572139303482586
+Accuracy: 0.667910447761194
+ROC_AUC: 0.7028025328330207
+
+Dataset: CN-AML
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'dense_layers': [256], 'epochs': 150, 'patience': 30, 'batch_size': 128, 'lr': 0.00015, 'random_state': 32, 'verbose': 0, 'gpuid': '4'}
+F1: 0.5217391304347826
+Accuracy: 0.6716417910447762
+ROC_AUC: 0.7327040337711069
+
+Dataset: CN-AML
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'dense_layers': [128, 64], 'epochs': 150, 'patience': 30, 'batch_size': 128, 'lr': 0.00015, 'random_state': 32, 'verbose': 0, 'gpuid': '0'}
+F1: 0.5492227979274612
+Accuracy: 0.6753731343283582
+ROC_AUC: 0.7407950281425891
+
+Dataset: CN-AML
+Channels: 7
+Parameters: {'conv1_kernel_size': 11, 'dense_layers': [128], 'epochs': 200, 'patience': 30, 'batch_size': 128, 'lr': 0.0001, 'random_state': 32, 'verbose': 0, 'gpuid': '3'}
+F1: 0.5212765957446809
+Accuracy: 0.664179104477612
+ROC_AUC: 0.7104244840525328
+
+Dataset: CN-AML
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'dense_layers': [128], 'epochs': 200, 'patience': 30, 'batch_size': 128, 'lr': 0.0001, 'random_state': 32, 'verbose': 0, 'gpuid': '5'}
+F1: 0.5494505494505495
+Accuracy: 0.6940298507462687
+ROC_AUC: 0.7269582551594745
+

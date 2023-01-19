@@ -1,0 +1,49 @@
+Dataset: CN-AML
+Channels: 9
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 1, 'lr': 0.0003, 'epochs': 200, 'dropout': 0.5, 'dense_layers': [128], 'conv1_kernel_size': 21, 'batch_size': 128, 'batch_norm': True}
+F1: 0.7
+Accuracy: 0.7777777777777778
+ROC_AUC: 0.8282828282828283
+
+Dataset: CN-AML
+Channels: 11
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 2, 'lr': 0.0005, 'epochs': 200, 'dropout': 0.1, 'dense_layers': [128], 'conv1_kernel_size': 13, 'batch_size': 64, 'batch_norm': False}
+F1: 0.6500000000000001
+Accuracy: 0.7407407407407407
+ROC_AUC: 0.8210678210678211
+
+Dataset: CN-AML
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 1, 'lr': 0.0003, 'epochs': 200, 'dropout': 0.5, 'dense_layers': [128], 'conv1_kernel_size': 21, 'batch_size': 128, 'batch_norm': True}
+F1: 0.5789473684210527
+Accuracy: 0.7037037037037037
+ROC_AUC: 0.7835497835497834
+
+Dataset: CN-AML
+Channels: 7
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 2, 'lr': 0.0005, 'epochs': 200, 'dropout': 0.1, 'dense_layers': [128], 'conv1_kernel_size': 13, 'batch_size': 64, 'batch_norm': False}
+F1: 0.6315789473684211
+Accuracy: 0.7407407407407407
+ROC_AUC: 0.7878787878787878
+
+Dataset: CN-AML
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 1, 'lr': 0.0003, 'epochs': 200, 'dropout': 0.5, 'dense_layers': [128], 'conv1_kernel_size': 21, 'batch_size': 128, 'batch_norm': True}
+F1: 0.6486486486486486
+Accuracy: 0.7592592592592593
+ROC_AUC: 0.8023088023088023
+
+Dataset: CN-AML
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 1, 'lr': 0.0003, 'epochs': 200, 'dropout': 0.1, 'dense_layers': [128], 'conv1_kernel_size': 15, 'batch_size': 64, 'batch_norm': False}
+F1: 0.6341463414634146
+Accuracy: 0.7222222222222222
+ROC_AUC: 0.8037518037518038
+
+Dataset: CN-AML
+Channels: 9
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 1, 'lr': 0.0003, 'epochs': 200, 'dropout': 0.5, 'dense_layers': [128], 'conv1_kernel_size': 21, 'batch_size': 128, 'batch_norm': True}
+F1: 0.6315789473684211
+Accuracy: 0.7407407407407407
+ROC_AUC: 0.8210678210678211
+

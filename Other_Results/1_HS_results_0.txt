@@ -1,0 +1,126 @@
+Dataset: KT-1(train)-KT-2(test)
+Channels: 7
+Best parameters: {'conv1_kernel_size': 11, 'n_inception': 2, 'dense_layers': [256], 'epochs': 200, 'patience': 30, 'batch_size': 256, 'lr': 0.0002, 'dropout': 0.0, 'batch_norm': False, 'random_state': 32, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8454106280193237
+Accuracy: 0.7730496453900709
+ROC_AUC: 0.8171946857434849
+
+Dataset: KT-1
+Channels: 9
+Best parameters: {'conv1_kernel_size': 17, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 200, 'patience': 30, 'batch_size': 128, 'lr': 0.0002, 'dropout': 0.5, 'batch_norm': False, 'random_state': 32, 'verbose': 0, 'gpuid': '5'}
+F1: 0.9166666666666666
+Accuracy: 0.9047619047619048
+ROC_AUC: 0.9537037037037037
+
+Dataset: Infliximab-1(train)-Infliximab-2(test)
+Channels: 9
+Best parameters: {'conv1_kernel_size': 11, 'n_inception': 1, 'dense_layers': [128, 32], 'epochs': 100, 'patience': 30, 'batch_size': 64, 'lr': 0.0003, 'dropout': 0.0, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '6'}
+F1: 0.7000000000000001
+Accuracy: 0.75
+ROC_AUC: 0.6953125
+
+Dataset: KT-1(train)-KT-2(test)
+Channels: 7
+Best parameters: {'conv1_kernel_size': 11, 'n_inception': 2, 'dense_layers': [256], 'epochs': 200, 'patience': 30, 'batch_size': 256, 'lr': 0.0002, 'dropout': 0.0, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '2'}
+F1: 0.8564593301435406
+Accuracy: 0.7872340425531915
+ROC_AUC: 0.8152146142054164
+
+Dataset: KT-2(train)-KT-1(test)
+Channels: 7
+Best parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [256, 64], 'epochs': 200, 'patience': 30, 'batch_size': 256, 'lr': 0.0004, 'dropout': 0.1, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '2'}
+F1: 0.7964601769911505
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8291900561347234
+
+Dataset: KT-2(train)-KT-1(test)
+Channels: 7
+Best parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [256, 64], 'epochs': 200, 'patience': 30, 'batch_size': 256, 'lr': 0.0004, 'dropout': 0.1, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '2'}
+F1: 0.8173913043478261
+Accuracy: 0.7920792079207921
+ROC_AUC: 0.8524458700882118
+
+Dataset: Infliximab-1(train)-Infliximab-2(test)
+Channels: 9
+Best parameters: {'conv1_kernel_size': 11, 'n_inception': 1, 'dense_layers': [128, 32], 'epochs': 100, 'patience': 30, 'batch_size': 64, 'lr': 0.0003, 'dropout': 0.0, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '2'}
+F1: 0.7000000000000001
+Accuracy: 0.75
+ROC_AUC: 0.6953125
+
+Dataset: Infliximab-2(train)-Infliximab-1(test)
+Channels: 9
+Best parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [64], 'epochs': 100, 'patience': 30, 'batch_size': 64, 'lr': 0.0001, 'dropout': 0.1, 'batch_norm': True, 'random_state': 32, 'verbose': 2, 'gpuid': '2'}
+F1: 0.6363636363636365
+Accuracy: 0.6521739130434783
+ROC_AUC: 0.7878787878787878
+
+Dataset: Carboplatin+pancancer
+Channels: 9
+Best parameters: {'conv1_kernel_size': 17, 'n_inception': 2, 'dense_layers': [256], 'epochs': 150, 'patience': 30, 'batch_size': 128, 'lr': 0.0003, 'dropout': 0.0, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.8510638297872339
+Accuracy: 0.7666666666666667
+ROC_AUC: 0.746031746031746
+
+Dataset: Carboplatin+pancancer
+Channels: 9
+Best parameters: {'conv1_kernel_size': 17, 'n_inception': 2, 'dense_layers': [256], 'epochs': 150, 'patience': 30, 'batch_size': 128, 'lr': 0.0003, 'dropout': 0.0, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.8510638297872339
+Accuracy: 0.7666666666666667
+ROC_AUC: 0.7513227513227514
+
+Dataset: Carboplatin+UCEC
+Channels: 9
+Best parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [128], 'epochs': 100, 'patience': 30, 'batch_size': 32, 'lr': 0.0003, 'dropout': 0.5, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.923076923076923
+Accuracy: 0.8571428571428571
+ROC_AUC: 0.0
+
+Dataset: Cisplatin+BLCA
+Channels: 7
+Best parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [128], 'epochs': 100, 'patience': 30, 'batch_size': 32, 'lr': 0.0003, 'dropout': 0.5, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.8333333333333333
+Accuracy: 0.75
+ROC_AUC: 0.9333333333333333
+
+Dataset: Cisplatin+CESC
+Channels: 7
+Best parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256], 'epochs': 100, 'patience': 30, 'batch_size': 32, 'lr': 0.0003, 'dropout': 0.3, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.9090909090909091
+Accuracy: 0.8333333333333334
+ROC_AUC: 0.7
+
+Dataset: Cisplatin+LUAD
+Channels: 7
+Best parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [64], 'epochs': 100, 'patience': 30, 'batch_size': 32, 'lr': 0.0002, 'dropout': 0.0, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.8571428571428571
+Accuracy: 0.75
+ROC_AUC: 0.25
+
+Dataset: Cisplatin+pancancer
+Channels: 7
+Best parameters: {'conv1_kernel_size': 17, 'n_inception': 2, 'dense_layers': [256], 'epochs': 150, 'patience': 30, 'batch_size': 128, 'lr': 0.0003, 'dropout': 0.0, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.88659793814433
+Accuracy: 0.7962962962962963
+ROC_AUC: 0.6113636363636364
+
+Dataset: Paclitaxel+BRCA
+Channels: 9
+Best parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [256], 'epochs': 100, 'patience': 30, 'batch_size': 128, 'lr': 0.0003, 'dropout': 0.5, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.9333333333333333
+Accuracy: 0.875
+ROC_AUC: 0.7142857142857143
+
+Dataset: CN-AML
+Channels: 9
+Best parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [128], 'epochs': 200, 'patience': 30, 'batch_size': 128, 'lr': 0.0003, 'dropout': 0.5, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.717948717948718
+Accuracy: 0.7962962962962963
+ROC_AUC: 0.8124098124098124
+
+Dataset: CN-AML
+Channels: 9
+Best parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [128], 'epochs': 200, 'patience': 30, 'batch_size': 128, 'lr': 0.0003, 'dropout': 0.5, 'batch_norm': False, 'random_state': 32, 'verbose': 2, 'gpuid': '5'}
+F1: 0.717948717948718
+Accuracy: 0.7962962962962963
+ROC_AUC: 0.8282828282828283
+

@@ -1,0 +1,667 @@
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8528468323977545
+
+Dataset: KT-1
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8678829190056134
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 64], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.7964601769911505
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8526463512429832
+
+Dataset: KT-1
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 64], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8622694466720128
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 32], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8070175438596492
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8660785886126704
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [128, 64], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.7931034482758621
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.859663191659984
+
+Dataset: KT-1
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 32], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8640737770649559
+
+Dataset: KT-2
+Channels: 7
+F1: 0.8800000000000001
+Accuracy: 0.8191489361702128
+ROC_AUC: 0.842935615738375
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [128, 32], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8070175438596492
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8753007217321572
+
+Dataset: KT-1
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [128, 64], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.7931034482758621
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.8504410585404972
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8628708901363271
+
+Dataset: KT-1
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [128, 32], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8672814755412991
+
+Dataset: KT-1
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8103448275862069
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8628708901363271
+
+Dataset: KT-2
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8726415094339622
+Accuracy: 0.8085106382978723
+ROC_AUC: 0.8463847726111394
+
+Dataset: KT-2
+Channels: 7
+F1: 0.8773584905660378
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8458099131323453
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8275862068965517
+Accuracy: 0.801980198019802
+ROC_AUC: 0.8700882117080995
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8103448275862069
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8672814755412991
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.0, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8173913043478261
+Accuracy: 0.7920792079207921
+ROC_AUC: 0.8672814755412991
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.1, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8070175438596492
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8684843624699279
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.1, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8173913043478261
+Accuracy: 0.7920792079207921
+ROC_AUC: 0.8664795509222133
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.1, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8275862068965517
+Accuracy: 0.801980198019802
+ROC_AUC: 0.871692060946271
+
+Dataset: KT-2
+Channels: 7
+F1: 0.8705882352941177
+Accuracy: 0.8049645390070922
+ROC_AUC: 0.8484287174246296
+
+Dataset: KT-2
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 64], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8625592417061612
+Accuracy: 0.7943262411347518
+ROC_AUC: 0.8490674501788451
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8785046728971964
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8497700562084823
+
+Dataset: KT-2
+Channels: 7
+F1: 0.8752941176470589
+Accuracy: 0.8120567375886525
+ROC_AUC: 0.8393587123147674
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8752941176470589
+Accuracy: 0.8120567375886525
+ROC_AUC: 0.8491951967296882
+
+Dataset: KT-2
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [256, 32], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8720379146919431
+Accuracy: 0.8085106382978723
+ROC_AUC: 0.847342871742463
+
+Dataset: KT-2
+Channels: 7
+F1: 0.8747044917257683
+Accuracy: 0.8120567375886525
+ROC_AUC: 0.846448645886561
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.0, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8773584905660378
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8451073071027082
+
+Dataset: KT-2
+Channels: 11
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [128, 64], 'epochs': 200, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.0, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8672985781990522
+Accuracy: 0.8014184397163121
+ROC_AUC: 0.8498339294839039
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.1, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8732394366197184
+Accuracy: 0.8085106382978723
+ROC_AUC: 0.8475983648441492
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.7931034482758621
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.8753007217321572
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '1'}
+F1: 0.7931034482758621
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.8740978348035285
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '1'}
+F1: 0.7964601769911505
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8769045709703288
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '1'}
+F1: 0.7964601769911505
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8740978348035284
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '1'}
+F1: 0.8070175438596492
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8672814755412992
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '1'}
+F1: 0.7787610619469026
+Accuracy: 0.7524752475247525
+ROC_AUC: 0.8736968724939855
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '1'}
+F1: 0.7857142857142857
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.8748997594226143
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8773584905660378
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8523888605007665
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.884160756501182
+Accuracy: 0.8262411347517731
+ROC_AUC: 0.8616504854368933
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8767772511848341
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8535385794583547
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 2, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8693586698337292
+Accuracy: 0.8049645390070922
+ROC_AUC: 0.8551992846193152
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8070175438596492
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8821170809943866
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8173913043478261
+Accuracy: 0.7920792079207921
+ROC_AUC: 0.8873295910184443
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.7964601769911505
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.880513231756215
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.7857142857142857
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.8620689655172414
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8070175438596492
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.880112269446672
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.7931034482758621
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.876102646351243
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.876102646351243
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8205128205128206
+Accuracy: 0.7920792079207921
+ROC_AUC: 0.880513231756215
+
+Dataset: KT-1
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8205128205128206
+Accuracy: 0.7920792079207921
+ROC_AUC: 0.8781074578989575
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8035714285714286
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.859262229350441
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8777064955894146
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.7894736842105263
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.8777064955894146
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.7826086956521741
+Accuracy: 0.7524752475247525
+ROC_AUC: 0.8652766639935847
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8758782201405153
+Accuracy: 0.8120567375886525
+ROC_AUC: 0.84395758814512
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8790697674418605
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.836931527848748
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8732394366197184
+Accuracy: 0.8085106382978723
+ROC_AUC: 0.844276954522228
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.7758620689655173
+Accuracy: 0.7425742574257426
+ROC_AUC: 0.8668805132317562
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.7826086956521741
+Accuracy: 0.7524752475247525
+ROC_AUC: 0.8648757016840416
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8034188034188032
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8668805132317562
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [512, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8034188034188032
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8805132317562149
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [512, 128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '2'}
+F1: 0.8103448275862069
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8777064955894146
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '7'}
+F1: 0.873508353221957
+Accuracy: 0.8120567375886525
+ROC_AUC: 0.8526443536024528
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8687350835322196
+Accuracy: 0.8049645390070922
+ROC_AUC: 0.8516862544711292
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8767772511848341
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8445963208993357
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8867924528301887
+Accuracy: 0.8297872340425532
+ROC_AUC: 0.8567322432294328
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8679245283018868
+Accuracy: 0.8014184397163121
+ROC_AUC: 0.8370592743995912
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8788598574821853
+Accuracy: 0.8191489361702128
+ROC_AUC: 0.8469596320899335
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 1, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8708133971291866
+Accuracy: 0.8085106382978723
+ROC_AUC: 0.8481093510475218
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8767772511848341
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8451073071027081
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8636363636363636
+Accuracy: 0.7872340425531915
+ROC_AUC: 0.8118293306080735
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [256, 64, 64], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '4'}
+F1: 0.8108108108108107
+Accuracy: 0.7920792079207921
+ROC_AUC: 0.8624699278267843
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [512, 256], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.884160756501182
+Accuracy: 0.8262411347517731
+ROC_AUC: 0.8352069494123658
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '4'}
+F1: 0.8103448275862069
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8765036086607859
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [512], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '4'}
+F1: 0.7894736842105263
+Accuracy: 0.7623762376237624
+ROC_AUC: 0.867682437850842
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '4'}
+F1: 0.8070175438596492
+Accuracy: 0.7821782178217822
+ROC_AUC: 0.8757016840417
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8642533936651583
+Accuracy: 0.7872340425531915
+ROC_AUC: 0.8132345426673481
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8693586698337292
+Accuracy: 0.8049645390070922
+ROC_AUC: 0.8228155339805825
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8623024830699775
+Accuracy: 0.7836879432624113
+ROC_AUC: 0.8138094021461421
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [256, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '4'}
+F1: 0.8034188034188032
+Accuracy: 0.7722772277227723
+ROC_AUC: 0.8773055332798717
+
+Dataset: KT-1
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '4'}
+F1: 0.7826086956521741
+Accuracy: 0.7524752475247525
+ROC_AUC: 0.872093023255814
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '7'}
+F1: 0.8652482269503546
+Accuracy: 0.7978723404255319
+ROC_AUC: 0.8178334184977006
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [256, 64, 64], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '5'}
+F1: 0.8539823008849559
+Accuracy: 0.7659574468085106
+ROC_AUC: 0.7982243229432806
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8785046728971964
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8367399080224834
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8632075471698114
+Accuracy: 0.7943262411347518
+ROC_AUC: 0.8241568727644353
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8685446009389671
+Accuracy: 0.8014184397163121
+ROC_AUC: 0.823645886561063
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [256], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '5'}
+F1: 0.8779342723004695
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8520694941236587
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8711943793911007
+Accuracy: 0.8049645390070922
+ROC_AUC: 0.8166198262646909
+
+Dataset: KT-2
+Channels: 9
+Parameters: {'conv1_kernel_size': 15, 'n_inception': 0, 'dense_layers': [512, 128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '3'}
+F1: 0.8773584905660378
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8157894736842104
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [512, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8714285714285716
+Accuracy: 0.8085106382978723
+ROC_AUC: 0.8340572304547776
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 2, 'dense_layers': [512], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '5'}
+F1: 0.8758782201405153
+Accuracy: 0.8120567375886525
+ROC_AUC: 0.8424885028104241
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [512, 128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '6'}
+F1: 0.8672985781990522
+Accuracy: 0.8014184397163121
+ROC_AUC: 0.8262008175779253
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [512, 128], 'epochs': 200, 'batch_size': 512, 'lr': 0.0001, 'dropout': 0.5, 'verbose': 0, 'gpuid': '5'}
+F1: 0.8744186046511627
+Accuracy: 0.8085106382978723
+ROC_AUC: 0.8386561062851303
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [256, 128], 'epochs': 150, 'batch_size': 512, 'lr': 0.0003, 'dropout': 0.5, 'verbose': 0, 'gpuid': '5'}
+F1: 0.8773584905660378
+Accuracy: 0.8156028368794326
+ROC_AUC: 0.8343765968318855
+
+Dataset: KT-2
+Channels: 7
+Parameters: {'conv1_kernel_size': 13, 'n_inception': 1, 'dense_layers': [128], 'epochs': 100, 'batch_size': 512, 'lr': 0.0005, 'dropout': 0.5, 'verbose': 0, 'gpuid': '5'}
+F1: 0.8758782201405153
+Accuracy: 0.8120567375886525
+ROC_AUC: 0.8390393459376596
+

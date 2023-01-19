@@ -1,0 +1,20 @@
+CNN-based model,Reference,Data group
+0.8,0.75,Response against drug treatment
+0.57,0.55,Response against drug treatment
+0.69,0.63,Response against drug treatment
+0.57,0.54,Response against drug treatment
+0.68,0.58,Response against drug treatment
+0.51,0.39,Response against drug treatment
+0.72,0.63,Response against drug treatment
+0.72,0.84,Response against drug treatment
+0.65,0.6,Response against drug treatment
+0.5,0.46,Response against drug treatment
+0.62,0.39,Response against drug treatment
+0.65,0.59,Response against drug treatment
+0.75,0.92,Response against drug treatment
+0.83,0.81,Relapse / Metastasis after drug treatment
+0.71,0.69,Relapse / Metastasis after drug treatment
+0.79,0.74,Response against surgery
+0.79,0.74,Response against surgery
+0.82,0.85,Response against surgery
+0.82,0.86,Response against surgery

@@ -1,0 +1,42 @@
+Dataset: CN-AML
+Channels: 11
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 2, 'lr': 0.0005, 'epochs': 200, 'dropout': 0.1, 'dense_layers': [128], 'conv1_kernel_size': 13, 'batch_size': 64, 'batch_norm': False}
+F1: 0.5263157894736842
+Accuracy: 0.6538461538461539
+ROC_AUC: 0.7125
+
+Dataset: CN-AML
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 1, 'lr': 0.0003, 'epochs': 200, 'dropout': 0.1, 'dense_layers': [128], 'conv1_kernel_size': 15, 'batch_size': 64, 'batch_norm': False}
+F1: 0.588235294117647
+Accuracy: 0.7307692307692307
+ROC_AUC: 0.7250000000000001
+
+Dataset: MBC
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 2, 'lr': 0.0003, 'epochs': 200, 'dropout': 0.3, 'dense_layers': [256], 'conv1_kernel_size': 21, 'batch_size': 256, 'batch_norm': False}
+F1: 0.631578947368421
+Accuracy: 0.5
+ROC_AUC: 0.4888888888888889
+
+Dataset: MBC
+Channels: 7
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 1, 'lr': 0.0001, 'epochs': 100, 'dropout': 0.1, 'dense_layers': [64], 'conv1_kernel_size': 13, 'batch_size': 256, 'batch_norm': True}
+F1: 0.761904761904762
+Accuracy: 0.6428571428571429
+ROC_AUC: 0.5333333333333333
+
+Dataset: KT-2
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 2, 'lr': 0.0005, 'epochs': 200, 'dropout': 0.0, 'dense_layers': [128], 'conv1_kernel_size': 23, 'batch_size': 128, 'batch_norm': True}
+F1: 0.9090909090909092
+Accuracy: 0.8571428571428571
+ROC_AUC: 0.8260162601626017
+
+Dataset: KT-2
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 30, 'n_inception': 2, 'lr': 0.0005, 'epochs': 200, 'dropout': 0.3, 'dense_layers': [64], 'conv1_kernel_size': 23, 'batch_size': 256, 'batch_norm': True}
+F1: 0.9024390243902439
+Accuracy: 0.8571428571428571
+ROC_AUC: 0.8227642276422764
+

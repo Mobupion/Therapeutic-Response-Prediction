@@ -69,7 +69,7 @@ class BBOX:
 		f_tt.write("n_fold: {}\nF1: {}\nAccuracy: {}\nROC_AUC: {}\n\n".format(i, f1, acc, auc))
 		f_tt.close()
 
-#选择哪个GPU进行计算，“2”代表编号为2的GPU
+#GPU selection
 gpu_id = "7"
 #os.environ["CUDA_VISIBLE_DEVICES"]=gpu_id
 #physical_gpus = tf.config.experimental.list_physical_devices('GPU')
@@ -82,12 +82,13 @@ clu_channels = 5
 cv = 5
 ran_seed = 0
 
-#读入数据集
+#Data input
 data_T = pd.read_csv("/raid/mobu/0_datasets/{}_log2expression-response+cancer.csv".format(file), header = 0, index_col = 0)
 cv_split = pd.read_csv("/raid/mobu/0_datasets/{}_phenotype.csv".format(file), header = 0, index_col = 0)
 
 dataX = data_T.drop(columns = ["response","cancer"])
-#创建AggMap对象
+
+#AggMap generation
 if os.path.isfile("/raid/mobu/1_aggmap/{}-all_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed)):
 	mp = loadmap("/raid/mobu/1_aggmap/{}-all_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed))
 else:
@@ -115,7 +116,7 @@ for i in cv_split.columns:
 	trainY = data_T.loc[[i in trainXY_index for i in data_T.index], "response"]
 	testY = data_T.loc[[i in testXY_index for i in data_T.index], "response"]
 
-	#通过AggMap对象将一维向量转变为多维矩阵
+	#AggMap transformation
 	trainX_mp = mp.batch_transform(trainX.values)
 	testX_mp = mp.batch_transform(testX.values)
 	trainY_binary = tf.keras.utils.to_categorical(trainY.values,2)

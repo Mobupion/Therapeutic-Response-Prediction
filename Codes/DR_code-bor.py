@@ -14,7 +14,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from aggmap import AggMap, AggMapNet, show, loadmap
 
-#选择哪个GPU进行计算，“2”代表编号为2的GPU
+#GPU selection
 gpu_id = "3"
 os.environ["CUDA_VISIBLE_DEVICES"]=gpu_id
 physical_gpus = tf.config.experimental.list_physical_devices('GPU')
@@ -29,7 +29,7 @@ clu_channels = 7
 cv = 5
 ran_seed = 0
 
-#读入数据集
+#Data input
 data_T = pd.read_csv("/raid/mobu/0_datasets/{}_log2expression-response+trial+drug.csv".format(file), header = 0, index_col = 0)
 dataX = data_T.drop(columns = ["PD-R_response","NR-R_response","trial","drug"])
 
@@ -42,7 +42,7 @@ testX = test_xy.drop(columns = ["PD-R_response","NR-R_response","trial","drug"])
 trainY = train_xy[data_split]
 testY = test_xy[data_split]
 
-#创建AggMap对象
+#AggMap generation
 if os.path.isfile("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed)):
 	mp = loadmap("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed))
 else:
@@ -53,7 +53,7 @@ else:
 	mp.fit(cluster_channels = clu_channels)
 	mp.save("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed))
 
-#通过AggMap对象将一维向量转变为多维矩阵
+#AggMap transformation
 trainX_mp = mp.batch_transform(trainX.values)
 testX_mp = mp.batch_transform(testX.values)
 trainY_binary = tf.keras.utils.to_categorical(trainY.values,2)

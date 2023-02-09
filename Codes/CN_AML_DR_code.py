@@ -14,7 +14,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from aggmap import AggMap, AggMapNet, show, loadmap
 
-#选择哪个GPU进行计算，“2”代表编号为2的GPU
+#GPU selection
 gpu_id = "0"
 os.environ["CUDA_VISIBLE_DEVICES"]=gpu_id
 physical_gpus = tf.config.experimental.list_physical_devices('GPU')
@@ -27,14 +27,14 @@ file = "CN-AML"
 clu_channels = 7
 ran_seed = 0
 
-#读入数据集
+#Data input
 data_T = pd.read_csv("/raid/mobu/0_datasets/{}_log2expression-response.csv".format(file), header = 0, index_col = 0)
 
-#数据集的预处理，提取出特征集和标签集
+#Pre-processing
 dataX = data_T.drop(columns = "response")
 dataY = data_T["response"]
 
-#创建AggMap对象
+#AggMap generation
 if os.path.isfile("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed)):
 	mp = loadmap("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed))
 else:

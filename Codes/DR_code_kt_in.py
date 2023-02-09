@@ -16,7 +16,7 @@ from aggmap import AggMap, AggMapNet, show, loadmap
 
 def abb(file,clu_channels,gpu_id,parameters):
 	
-	#选择哪个GPU进行计算，“2”代表编号为2的GPU
+	#GPU selection
 	os.environ["CUDA_VISIBLE_DEVICES"]=gpu_id
 	physical_gpus = tf.config.experimental.list_physical_devices('GPU')
 	tf.config.experimental.set_memory_growth(physical_gpus[0], True)
@@ -24,14 +24,14 @@ def abb(file,clu_channels,gpu_id,parameters):
 	#Self-definition
 	ran_seed = 0
 
-	#读入数据集
+	#Data input
 	data_T = pd.read_csv("/raid/mobu/0_datasets/{}_log2expression-response.csv".format(file), header = 0, index_col = 0)
 
-	#数据集的预处理，提取出特征集和标签集
+	#Pre-processing
 	dataX = data_T.drop(columns = "response")
 	dataY = data_T["response"]
 
-	#创建AggMap对象
+	#AggMap generation
 	if os.path.isfile("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file[:-2],clu_channels,5,ran_seed)):
 	    mp = loadmap("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file[:-2],clu_channels,5,ran_seed))
 	else:

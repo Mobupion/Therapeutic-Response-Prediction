@@ -14,7 +14,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from aggmap import AggMap, AggMapNet, show, loadmap
 
-#选择哪个GPU进行计算，“2”代表编号为2的GPU
+#GPU selection
 gpu_id = "2"
 os.environ["CUDA_VISIBLE_DEVICES"]=gpu_id
 physical_gpus = tf.config.experimental.list_physical_devices('GPU')
@@ -28,7 +28,7 @@ clu_channels = 7
 cv = 5
 ran_seed = 0
 
-#读入数据集
+#Data input
 data_T = pd.read_csv("/raid/mobu/0_datasets/{}_log2expression-ER_Status+time+relapse+response.csv".format(file), header = 0, index_col = 0)
 
 #data_normal = pd.read_csv("/raid/saiki/1_new-data/1_DR_gene-list.csv", header = 0, index_col = 0)
@@ -43,12 +43,12 @@ dataX = dataX.reindex(columns = data_normal["Gene"])
 dataX = dataX.dropna(axis = 1, how = "all")
 '''
 
-#数据集的预处理，提取出特征集和标签集
+#Pre-processing
 data_T = data_T.loc[pd.notnull(data_T["response"])]
 dataX = data_T.drop(columns = ["ER_Status","time_to_relapse","relapse_(1=True)","response"])
 dataY = data_T["response"]
 
-#将数据集划分为训练集和测试集
+#Training-test set splitting
 import random
 tt_dic = {}
 
@@ -72,7 +72,7 @@ for i, j in data_T.groupby(by = ["ER_Status"], axis = 0):
 trainX, trainY = dataX.loc[tt_dic["train_set"]], dataY.loc[tt_dic["train_set"]]
 testX, testY = dataX.loc[tt_dic["test_set"]], dataY.loc[tt_dic["test_set"]]
 
-#创建AggMap对象
+#AggMap generation
 if os.path.isfile("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed)):
 	mp = loadmap("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed))
 else:
@@ -83,7 +83,7 @@ else:
 	mp.fit(cluster_channels = clu_channels)
 	mp.save("/raid/mobu/1_aggmap/{}_DR_channels({})_{}-cv_{}.mp".format(file,clu_channels,5,ran_seed))
 
-#通过AggMap对象将一维向量转变为多维矩阵
+#AggMap transformation
 trainX_mp = mp.batch_transform(trainX.values)
 testX_mp = mp.batch_transform(testX.values)
 trainY_binary = tf.keras.utils.to_categorical(trainY.values,2)

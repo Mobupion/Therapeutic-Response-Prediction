@@ -23,7 +23,7 @@ clu_channels = 5
 cv = 5
 ran_seed = 0
 
-#读入数据集
+#Data input
 data_T = pd.read_csv("/raid/mobu/0_datasets/{}_log2expression-response.csv".format(file), header = 0, index_col = 0)
 data_T_2 = pd.read_csv("/raid/mobu/0_datasets/{}_log2expression-response.csv".format(file_2), header = 0, index_col = 0)
 
@@ -34,7 +34,7 @@ dataX = pd.concat([dataX,dataX_2],axis=0)
 dataX_new = StandardScaler().fit_transform(dataX)
 dataX = pd.DataFrame(dataX_new, index = dataX.index, columns = dataX.columns)
 
-#创建AggMap对象
+#AggMap generation
 if os.path.isfile("/raid/mobu/1_aggmap/{}_DR-Z_channels({})_{}-cv_{}.mp".format(file[:-2],clu_channels,5,ran_seed)):
     mp = loadmap("/raid/mobu/1_aggmap/{}_DR-Z_channels({})_{}-cv_{}.mp".format(file[:-2],clu_channels,5,ran_seed))
 else:

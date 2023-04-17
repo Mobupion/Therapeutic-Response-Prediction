@@ -1,5 +1,5 @@
 # Therapeutic-Response-Prediction
-Paper: Low-Sample Clinical Transcriptomic Deep Learning for Enhanced Therapeutic Response Prediction with Restructured Gene Expression 2D-Representations
+Paper: Deep Learning of 2D-Restructured Gene Expression Representations for Improved Low-Sample Therapeutic Response Prediction
 
 All datasets used in this paper are accessible in the "0_datasets" folder, and essential codes and results in this study are provided in the “codes” and "results" folders respectively. (`Note`: "CN-AML" is an old name of "Chemo-AML" as well as "LNN-BRCA" to "CTR-BRCA") 
 

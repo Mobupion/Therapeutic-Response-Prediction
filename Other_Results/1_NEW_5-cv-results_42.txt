@@ -1,0 +1,42 @@
+Dataset: KT-1
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 60, 'n_inception': 2, 'lr': 0.0003, 'epochs': 50, 'dense_layers': [128, 32], 'conv1_kernel_size': 15, 'batch_size': 64}
+F1: 0.8695652173913043
+Accuracy: 0.8571428571428571
+ROC_AUC: 0.8425925925925926
+
+Dataset: KT-2
+Channels: 5
+Best parameters: {'random_state': 32, 'patience': 60, 'n_inception': 2, 'lr': 0.0005, 'epochs': 50, 'dense_layers': [128, 32], 'conv1_kernel_size': 9, 'batch_size': 32}
+F1: 0.8965517241379309
+Accuracy: 0.8392857142857143
+ROC_AUC: 0.8682926829268293
+
+Dataset: KT-1
+Channels: 9
+Best parameters: {'random_state': 32, 'patience': 60, 'n_inception': 1, 'lr': 0.0001, 'epochs': 50, 'dense_layers': [64, 32], 'conv1_kernel_size': 15, 'batch_size': 8}
+F1: 0.8695652173913043
+Accuracy: 0.8571428571428571
+ROC_AUC: 0.8611111111111112
+
+Dataset: KT-1
+Channels: 7
+Best parameters: {'random_state': 32, 'patience': 60, 'n_inception': 1, 'lr': 0.0005, 'epochs': 200, 'dense_layers': [128, 32], 'conv1_kernel_size': 15, 'batch_size': 32}
+F1: 0.8695652173913043
+Accuracy: 0.8571428571428571
+ROC_AUC: 0.8518518518518519
+
+Dataset: KT-2
+Channels: 9
+Best parameters: {'random_state': 32, 'patience': 60, 'n_inception': 1, 'lr': 0.0003, 'epochs': 50, 'dense_layers': [64, 32], 'conv1_kernel_size': 13, 'batch_size': 16}
+F1: 0.8809523809523809
+Accuracy: 0.8214285714285714
+ROC_AUC: 0.8747967479674796
+
+Dataset: KT-2
+Channels: 7
+Best parameters: {'random_state': 32, 'patience': 60, 'n_inception': 1, 'lr': 0.0001, 'epochs': 50, 'dense_layers': [128, 32], 'conv1_kernel_size': 15, 'batch_size': 8}
+F1: 0.8965517241379309
+Accuracy: 0.8392857142857143
+ROC_AUC: 0.8504065040650407
+
